@@ -11,6 +11,8 @@ so my main application for work is tmux in TTY without GUI 💪
 
 That plugin should works also with different laptops, but you need to change main plugin file.
 
+![Buttons photo](./buttons.jpg)
+
 ## Prerequisites
 
 Make sure that you have access to brigthness control:
