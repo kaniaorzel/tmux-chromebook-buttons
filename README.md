@@ -22,7 +22,7 @@ Manipulation with this file was done with `tee`.
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 ```tmux
-set -g @plugin 'tmux-plugins/tmux-battery'
+set -g @plugin 'kaniaorzel/tmux-chromebook-buttons'
 ```
 
 Hit `<prefix> + I` to fetch the plugin and source it.
