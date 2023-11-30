@@ -9,5 +9,5 @@ VALUE=$(expr $CURRENT_BRIGHTNESS - $STEP)
 if (( VALUE < 20 )); then
   VALUE=20
 fi
-echo "$VALUE" > $DEST_PATH &
+echo "$VALUE" | sudo tee $DEST_PATH > /dev/null
 

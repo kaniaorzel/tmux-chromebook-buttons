@@ -9,5 +9,5 @@ VALUE=$(expr $CURRENT_BRIGHTNESS + $STEP)
 if (( VALUE > MAX_BRIGHTNESS )); then
   VALUE=$MAX_BRIGHTNESS 
 fi
-echo "$VALUE" > $DEST_PATH &
+echo "$VALUE" | sudo tee $DEST_PATH > /dev/null
 
