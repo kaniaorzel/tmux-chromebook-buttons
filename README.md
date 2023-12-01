@@ -32,6 +32,6 @@ Hit `<prefix> + I` to fetch the plugin and source it.
 ## TODO
 
 - [x] brightness control
-- [ ] volume control
+- [x] volume control
 - [ ] figure it out how to use brightness without sudo
 - [ ] more universal
